@@ -52,3 +52,4 @@ As páginas devem ser construídas de maneira fiel ao protótipo escolhido.
 #### Resultado (tela inicial com o modal aberto):
 <img src="https://github.com/Ligueja/atifidade_final_front_end_III/blob/main/assets/tela_modal.jpg" width="400"/>
 
+##Para acessar o site é só clicar no link a seguir: https://atifidadefinalfrontend3.vercel.app

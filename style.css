@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo_site {
+    animation: shake 15s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+    20%, 40%, 60%, 80%, 100% { transform: translateX(10px); }
+}
+
+.cor_li{
+    color: #62EC52;
+}
+
+.cor_personagens {
+   font-weight: bold;
+    font-size: 15px;
+}
+
+.texto_footer {
+    color: #62EC52;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.numeros ul {
+    list-style: none;/* Remove as bolinhas (estilo de lista) */
+}
+
+.link_footer {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Define a cor do texto como branco */
+}
+
+.cor-branca {
+    color:#62EC52;
+}
+
+.botao_anterior {
+    color: #62EC52;
+}
+
+.botao_proximo {
+    color: #62EC52;
+}
+
+
+.color_status_vivo {
+    margin-top: 7px;
+    position: absolute;
+    border-radius: 999999px;
+    background-color: #62EC52;
+    border: 1px solid #62EC52;
+    width: 10px;
+    height: 10px;
+}
+
+
+.color_status_desconhecido {
+    margin-top: 6px;
+    position: absolute;
+    border-radius: 999999px;
+    background-color: gray;
+    border: 1px solid gray;
+    width: 10px;
+    height: 10px;
+}
+
+
+.color_status_morto {
+    margin-top: 6px;
+    position: absolute;
+    border-radius: 999999px;
+    background-color: red;
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+}
+
+/* Animação para fazer a bolinha do status crescer e diminuir */
+@keyframes pulsar {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Aplicando a animação à bolinha do status */
+  .color_status_vivo,
+  .color_status_desconhecido,
+  .color_status_morto {
+    animation: pulsar 1s infinite alternate;
+  }
+
+.cabecalho {
+    height: 200px;
+}
+
+.rodape {
+    height: 200px;
+    background-color: #0f1b15;
+}
+
+#imagem_fundo {
+    max-width: 100%;
+}
+    
+.cartao {
+    padding: 0;
+    border: solid 3px green;
+}
+
+.classe_modal {
+    border: solid 3px green;
+}
+
+/* Animação para fazer o zoom no card ao passar o mouse */
+@keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  /* Aplicando a animação ao card */
+  .cartao {
+    transition: transform 0.3s; /* Adiciona uma transição suave */
+  }
+  
+.cartao:hover {
+    animation: zoom 0.3s forwards;
+  }
+
+.corpo_cartao {
+    background-color: #262626;
+    font-size: 15px;
+}
+
+.cartao_nome {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.avatar {
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+
+.botaoPaginacao {
+    border: 2px solid rgb(2, 75, 2);
+    border-radius: 10%;
+    color: rgb(2, 75, 2);
+    margin: 20px;
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.titulo_modal {
+    color: white;
+    font-weight: bold;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(2, 75, 2);
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.pesquisa {
+    padding-left: 15px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: rgba(128, 128, 128, 0.295);
+    width: 510px;
+    height: 35px;
+    padding-right: 40px;
+    background-image: url('./images/lupa.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+    margin: auto;
+}
+
+.botao_cartao {
+    background-color: #42b4ca;
+}
+
+main {
+    background-color: #262626;
+}
+
+.titulo_modal {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color:#262626;
+    height: auto;
+}
+
+.botao_modal {
+    background-color: #42b4ca;
+}
+ 
+.cartao_status_especie {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.localiza {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.localizacao_ultima {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}

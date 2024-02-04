@@ -11,8 +11,6 @@ Criar:
 - 1 ou mais arquivos CSS para estilização dos elementos;
 - 1 ou mais arquivos Javascript para tornar as páginas dinâmicas.
 
-Para a listagem dos personagens e consumo da API foi utilizada a documentação https://rickandmortyapi.com/documentation/#rest
-
 Regras:
 A lista de personagens deve ter:
 - As informações básicas de cada personagem (nome, status e espécie);

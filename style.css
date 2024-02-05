@@ -112,7 +112,8 @@
 }
 
 #imagem_fundo {
-    max-width: 100%;
+    
+    width: 100%;
 }
     
 .cartao {

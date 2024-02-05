@@ -15,7 +15,7 @@ Regras:
 A lista de personagens deve ter:
 - As informações básicas de cada personagem (nome, status e espécie);
 - A imagem de cada personagem;
-- - Link para abrir a página de detalhes de cada personagem;
+- Link para abrir a página de detalhes de cada personagem;
 - Paginação.
 
 A pagina de cada personagem deve ter:

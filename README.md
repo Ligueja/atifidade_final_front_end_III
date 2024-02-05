@@ -4,7 +4,7 @@
 
 <b>ATIVIDADE FINAL FRONT END III</b>
 
-Consumir a API https://rickandmortyapi.com/documentation/#rest, listando os personagens, utilizando o que aprendemos durante o módulo (flexboox, animações, bootstrap, etc. (OK).
+Consumir a API https://rickandmortyapi.com/documentation/#rest, listando os personagens, utilizando o que aprendemos durante o módulo (flexboox, animações, bootstrap, etc.)
 Criar: 
 - 1 página HTML para listar os personagens;
 - 1 página HTML ou Modal para mostrar os detalhes de um personagem;
@@ -15,7 +15,7 @@ Regras:
 A lista de personagens deve ter:
 - As informações básicas de cada personagem (nome, status e espécie);
 - A imagem de cada personagem;
-- - Link para abrir a página de detalhes de cada personagem;
+- Link para abrir a página de detalhes de cada personagem;
 - Paginação.
 
 A pagina de cada personagem deve ter:

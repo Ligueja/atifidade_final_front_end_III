@@ -155,7 +155,7 @@ function criarMenuPaginacao() {
   paginacao.appendChild(divBotoes);
 }
 
-// função padrão para o rolar a pagina até o topo quando solicitado. No caso dessa aplicação, quando é precisonado os botões de paginação. 
+// função padrão para o rolar a pagina até o topo quando solicitado. No caso dessa aplicação, quando é presionado os botões de paginação. 
 function rolarTelaTopo() {
 
   window.scrollTo({
@@ -169,7 +169,7 @@ paginacaoPersonagens(pagina);
 criarMenuPaginacao();
 
 
-// função para chamar atrávés da rota GET as informações da API Rick and Morty.
+// função para chamar atrávés da rota GET as informações da API Rick and Morty no rodapé da tela.
 async function dadosFooter() {
   const resposta1 = await instance.get("/character");
 
